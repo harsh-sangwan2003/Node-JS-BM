@@ -1,0 +1,13 @@
+{
+  "name": "calc-math-opr-harsh",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node call.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
