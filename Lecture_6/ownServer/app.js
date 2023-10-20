@@ -66,6 +66,9 @@ function handleRequestResponse(req, res) {
 
         else {
 
+            // res.statuCode = 302;
+            // res.setHeader('Location','/dashboard');
+            
             res.write("Invalid username or password.");
         }
 
