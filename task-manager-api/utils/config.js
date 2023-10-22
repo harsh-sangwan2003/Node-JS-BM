@@ -1,4 +1,7 @@
 module.exports = {
+    SCHEMA:{
+        USERS:'users'
+    },
     CONTENT:{
         TYPE:{
             JSON:'application/json'

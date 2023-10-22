@@ -11,6 +11,8 @@ app.use(express.urlencoded());
 app.use(express.static('public'));
 app.use(require('./utils/middlewares/content'));
 app.use(BASE,require('./routes/user'));
+app.use(require('./utils/middlewares/tokenVerify'));
+app.use(BASE,require('./routes/task'));
 
 // 404 Not found
 app.use(require('./utils/middlewares/404'));
